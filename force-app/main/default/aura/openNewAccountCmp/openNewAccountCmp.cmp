@@ -1,0 +1,17 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" description="c:openNewAccountCmp">
+	<lightning:card title="Create Account" iconName="standard:account" >
+        
+    <div class="slds slds-p-around_medium">
+        <button class="slds-button slds-button_brand" onclick="{!c.createAccount}" >Create Account</button>        
+    </div>
+        
+     <div class="slds slds-p-around_medium">
+         <button class="slds-button slds-button_brand" onclick="{!c.createContact}" >Create Contact</button>       
+    </div>
+        
+    <div class="slds slds-p-around_medium">
+        <button class="slds-button slds-button_brand" onclick="{!c.createLead}" >Create Lead</button>        
+    </div>           
+ 
+    </lightning:card>     
+</aura:component>

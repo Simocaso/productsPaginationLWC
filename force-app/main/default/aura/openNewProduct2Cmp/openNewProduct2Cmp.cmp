@@ -1,0 +1,10 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" description="c:openNewProduct2Cmp">
+	<lightning:card title="Create product" iconName="standard:product" >
+        
+    <div class="slds slds-p-around_medium">
+        <button class="slds-button slds-button_brand" onclick="{!c.createProduct2}">Create new Product</button>        
+    </div>
+        
+    </lightning:card>     
+</aura:component>
+
